@@ -1,0 +1,99 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ #conteiner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+   
+   
+}
+.nav-photo{
+    background-image: url(44.jpg);
+    height: 100vh;
+    color: white;
+    background-size: 100%;
+    
+} 
+ .nav-opasity{
+    background-color: red;
+    opacity: 0.5;
+    height: 100vh;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style-type:none;
+}
+li a{
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+
+}
+#login_1{
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+.cloud{
+    font-size: 72px;
+    text-align: center;
+    top: 35%;
+    left: 25%;
+    position: absolute;
+    letter-spacing: 5px;
+    font-weight: bold;
+   
+}
+.badget{
+    text-align: center;
+    top: 50%;
+    left: 30%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.fa-cloud_1{
+   display: flex;
+}
+#duotone{
+    width: 35px;
+     height: 35px;
+}
+.sign_1{
+    color: red;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid white;
+    top: 70%;
+    left: 41%;
+    position: absolute;
+    
+}
+.option_1{
+    display: flex;
+}
+.svg{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+  
+    padding-left: 5px;
+}
+
